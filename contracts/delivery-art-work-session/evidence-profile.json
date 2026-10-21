@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "owner_repo": "console-todo-1275",
+  "profile_id": "little-list-owner-checks",
+  "commands": [
+    {
+      "id": "check-1",
+      "kind": "tests",
+      "name": "Actual task transitions, bounds and persistence codec",
+      "executable": "node",
+      "args": [
+        "--test",
+        "app/tests/tasks.test.mjs"
+      ],
+      "fidelity": "pure-unit",
+      "conformance_binding": "matching-fidelity",
+      "timeout_seconds": 120
+    },
+    {
+      "id": "check-2",
+      "kind": "validations",
+      "name": "Exact base/head source whitespace validation",
+      "executable": "git",
+      "args": [
+        "diff",
+        "--check",
+        "{{base_commit}}",
+        "{{head_commit}}"
+      ],
+      "fidelity": "real-git",
+      "conformance_binding": "none",
+      "timeout_seconds": 120
+    }
+  ]
+}
