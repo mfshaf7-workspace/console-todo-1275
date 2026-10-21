@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "owner_repo": "console-todo-1275",
+  "template": {
+    "id": "source-owner-bootstrap-v1",
+    "owner_repo": "operator-orchestration-service",
+    "digest": "sha256:2851c40596af2fd55c7d09a2e7d91689e1db1f2cd943fee90ef3892ae29fba80"
+  },
+  "provider_repository": {
+    "provider": "github",
+    "provider_repository_id": "1421451929",
+    "full_name": "mfshaf7-workspace/console-todo-1275"
+  },
+  "intake_entry_ref": {
+    "id": "repo:console-todo-1275",
+    "version": 1,
+    "digest": "sha256:a13ba19f2c239aa1c0de8f05c553320e0449b33573c6e791272347e38b4952b9"
+  },
+  "evidence_profile_digest": "sha256:4ad3759332f12ae3315deffcdd1d54f3f3a345694a3ea7105e3a8d1922c2121e",
+  "application_markers": [
+    "app/index.html",
+    "app/tasks.mjs",
+    "app/tests/tasks.test.mjs"
+  ],
+  "app_acceptance": false,
+  "inventory_admission": false,
+  "runtime_activation": false
+}
