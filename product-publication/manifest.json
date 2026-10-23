@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "artifact_type": "product-publication-owner-manifest",
+  "manifest_id": "product-publication-manifest:console-todo-1275:1",
+  "product_id": "product:console-todo-1275",
+  "product_record_ref": "workspace-governance://products/console-todo-1275/v1",
+  "product_record_version": 1,
+  "product_classification": "owner-managed",
+  "lifecycle_state": "active",
+  "owner_repo": "console-todo-1275",
+  "owner_role": "source-owner",
+  "owner_revision": "7efd4c3e87e2d41e10b252daf473db416e03090f",
+  "source_refs": [
+    {
+      "repo": "console-todo-1275",
+      "revision": "7efd4c3e87e2d41e10b252daf473db416e03090f",
+      "path": "app/index.html"
+    }
+  ],
+  "lifecycle_evidence": {
+    "project_phase": "operational",
+    "source_custody": "dedicated-owner-repo",
+    "runtime_environment": "none",
+    "release_posture": "not-applicable",
+    "publication_posture": "unlisted",
+    "evidence_refs": [
+      "git://console-todo-1275/7efd4c3e87e2d41e10b252daf473db416e03090f",
+      "wgcf://artifacts/delivery-art/sha256/73c9c02aaaefc71b72f4e00a4d7fb903514f46ef6ef23048f7a44f9f40ca64eb",
+      "receipt://prototype-closure/96c216ceb6bfac70afecf08aefd48645ef66612b46cfbe88f03c1bf6b9ef374e",
+      "platform://prototype-closure/evidence/9d98c1ffffa9ae455d5c2f8fad197c39cf011b887bf73fcb1858ecda66d9e3da",
+      "intake-merged:c15fd0433f2f6f36d6455b0879756758d258096f3e4b00bc6db34ebe3112b665",
+      "workspace-inventory-merged:81e89197fc1768bf223c2b738f4b5d66b6e2d772fbdda18df5d77dc04c21d015",
+      "https://github.com/mfshaf7/security-architecture/pull/322"
+    ]
+  },
+  "issued_at": "2026-10-23T18:22:23.303603Z"
+}
