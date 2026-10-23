@@ -1,0 +1,12 @@
+{
+  "name": "console-todo-1275",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test app/tests/tasks.test.mjs",
+    "test:browser": "node tests/browser/little-list.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.60.0"
+  }
+}

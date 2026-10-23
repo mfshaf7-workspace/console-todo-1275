@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "artifact_type": "prototype-source-import-manifest",
+  "prototype_id": "proposal-1305",
+  "owner_repo": "console-todo-1275",
+  "provider_repository": {
+    "provider": "github",
+    "provider_repository_id": "1421451929",
+    "full_name": "mfshaf7-workspace/console-todo-1275"
+  },
+  "delivery_target_ref": "openproject://work_packages/1306",
+  "delivery_packet_ref": "record://delivery-packets/proposal-1305-c1262151504a5dde1ea7b6336dd16fb3ebc44eb903c5928d2cb6579c2d8569b8",
+  "accepted_delivery_target_receipt_ref": "oos://receipts/prototype-delivery-application/281fd8decf32daf5dc49692f41e1cf057b14fcc8c5ec7099bdaab8efe14e5ab1",
+  "prototype_source_revision": "5142d21f18ae51e09bb35749387e680e64c23bfc",
+  "requested_custody": "dedicated-owner-repo",
+  "transfer_strategy": "transfer",
+  "file_mappings": [
+    {
+      "source_path": "prototypes/proposal-1305/README.md",
+      "owner_path": "app/README.md",
+      "sha256": "sha256:929c4dd7109fefe24d1f24e1b30f543d4ec148b5c3d0e036e19356f1bef999cd"
+    },
+    {
+      "source_path": "prototypes/proposal-1305/app.mjs",
+      "owner_path": "app/app.mjs",
+      "sha256": "sha256:b1f88ec5d2d252bda42ed88bd98269011c9836f843968a47f5e5b9d72c2ae84c"
+    },
+    {
+      "source_path": "prototypes/proposal-1305/index.html",
+      "owner_path": "app/index.html",
+      "sha256": "sha256:5fc778fa92a6d5a1e14fc68c1c88c4a60f455096acd39164719e6faaa6571bee"
+    },
+    {
+      "source_path": "prototypes/proposal-1305/styles.css",
+      "owner_path": "app/styles.css",
+      "sha256": "sha256:f78e33a650ecc84e93fbac1128d2d6287524820f699ccda3085fca413b2f6c76"
+    },
+    {
+      "source_path": "prototypes/proposal-1305/tasks.mjs",
+      "owner_path": "app/tasks.mjs",
+      "sha256": "sha256:7dc6ee923d56d9f8ee1a6bb0c16f4fba2ebe07d18d012492891cb6cca5d85e7f"
+    },
+    {
+      "source_path": "prototypes/proposal-1305/tests/tasks.test.mjs",
+      "owner_path": "app/tests/tasks.test.mjs",
+      "sha256": "sha256:888093105536a55a41e5ef973e264be76aea28416278f02519ff8d888834b324"
+    }
+  ]
+}
