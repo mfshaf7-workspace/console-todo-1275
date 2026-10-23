@@ -13,7 +13,8 @@ class OwnerControlTests(unittest.TestCase):
     def test_actual_base_owned_profile_and_guidance(self):
         profile = owner_controls.validate(ROOT)
         self.assertEqual(profile["owner_repo"], "console-todo-1275")
-        self.assertTrue(any(command["conformance_binding"] == "matching-fidelity" for command in profile["commands"]))
+        unconditional = {command["kind"] for command in profile["commands"] if command["conformance_binding"] == "none"}
+        self.assertTrue({"tests", "validations"}.issubset(unconditional))
 
 
 if __name__ == "__main__":
