@@ -30,6 +30,36 @@
       "fidelity": "real-git",
       "conformance_binding": "none",
       "timeout_seconds": 120
+    },
+    {
+      "id": "browser-dependencies",
+      "kind": "runtime_and_live",
+      "name": "Install exact locked browser-verifier dependencies",
+      "executable": "npm",
+      "args": ["ci", "--ignore-scripts", "--no-audit"],
+      "fidelity": "filesystem",
+      "conformance_binding": "none",
+      "timeout_seconds": 180
+    },
+    {
+      "id": "browser-runtime",
+      "kind": "runtime_and_live",
+      "name": "Install the pinned verifier's Chromium headless shell",
+      "executable": "node",
+      "args": ["node_modules/playwright/cli.js", "install", "chromium", "--only-shell"],
+      "fidelity": "sandbox-runtime",
+      "conformance_binding": "none",
+      "timeout_seconds": 180
+    },
+    {
+      "id": "little-list-browser",
+      "kind": "runtime_and_live",
+      "name": "Seven serial real-browser app and explicit storage-failure checks",
+      "executable": "node",
+      "args": ["tests/browser/little-list.mjs"],
+      "fidelity": "sandbox-runtime",
+      "conformance_binding": "none",
+      "timeout_seconds": 120
     }
   ]
 }
