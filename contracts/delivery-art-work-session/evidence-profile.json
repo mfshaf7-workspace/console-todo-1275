@@ -13,7 +13,7 @@
         "app/tests/tasks.test.mjs"
       ],
       "fidelity": "pure-unit",
-      "conformance_binding": "matching-fidelity",
+      "conformance_binding": "none",
       "timeout_seconds": 120
     },
     {
