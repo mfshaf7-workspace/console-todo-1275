@@ -50,6 +50,7 @@ input::placeholder { color: #74817a; }
 .privacy-note { margin-top: 19px; text-align: center; color: var(--muted); font-size: 12px; }
 .storage-help { max-width: 550px; margin: 14px auto 0; padding: 0 14px; color: var(--muted); font-size: 13px; line-height: 1.6; }
 .storage-help summary { min-height: 44px; padding: 10px 0; color: #24332f; cursor: pointer; font-weight: 600; text-align: center; }
+.storage-help[open] summary { margin-bottom: 8px; }
 .storage-help summary:focus-visible { outline: 3px solid #207966; outline-offset: 4px; border-radius: 4px; }
 .storage-help p { margin: 0 0 12px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
